@@ -1,0 +1,65 @@
+# ---- Your profile (the letter generator may ONLY use facts written here) ----
+profile:
+  name: "Yassir Derkaoui"
+  location: "Tanger, Maroc"
+  portfolio: "https://derkaoui.netlify.app"
+  email: "derkaouidev@gmail.com"          # <-- change
+  languages: ["français (courant)", "English (fluent)"]
+  summary: >
+    Full-stack developer who builds complete products independently (web, desktop, WordPress).
+    Former instructor (office computing, algorithmics, C) and former manager of a WordPress site.
+  stack:
+    frontend: [React, Next.js, TypeScript, Tailwind CSS, Zustand, shadcn/ui, Framer Motion]
+    backend: [Laravel, Spring Boot, ".NET/Avalonia"]
+    other: [WordPress, JavaScript]
+  education:
+    - "DCA Génie Informatique, ENSA Tanger (2024-2025)"
+    - "DTS Développement Informatique, IFIAG Casablanca (2022-2024)"
+  experience: 
+    - "Frontend Developer intern, Maya Digital (Aug-Oct 2024): React.js"
+    - "Web Developer intern, 2mag Agency (Mar-Apr 2024): WordPress sites"
+    - "Instructor, Institut CIEL (office computing, algorithmics, C); managed institut-ciel.com"
+  certifications: ["Cisco Networking Academy - JavaScript Essentials"]
+  projects:
+    - "Delivery management platform (Spring Boot + React) for a client"
+    - "Himmel: Next.js e-commerce app"
+
+# ---- Search ----
+search:
+  min_score: 45            # only offers >= this get a letter + digest entry
+  max_letters_per_run: 8
+  locations_ok: ["tanger", "tangier", "maroc", "morocco", "remote", "télétravail", "worldwide", "anywhere", "europe", "emea"]
+  exclude_title: ["senior", "lead", "principal", "staff", "head of", "architect", "manager", "10+ years", "8+ years", "5+ years"]
+  skills:          # keyword: weight
+    react: 10
+    next.js: 10
+    nextjs: 10
+    typescript: 8
+    tailwind: 4
+    laravel: 10
+    spring boot: 9
+    springboot: 9
+    wordpress: 7
+    full stack: 8
+    fullstack: 8
+    full-stack: 8
+    frontend: 6
+    front-end: 6
+    javascript: 5
+    php: 4
+    java: 3
+    junior: 6
+    stage: 6
+    intern: 6
+    développeur: 4
+    developpeur: 4
+
+# ---- Sources (set enabled: false to skip) ----
+sources:
+  remoteok: {enabled: true}
+  remotive: {enabled: true}
+  weworkremotely: {enabled: true}
+  arbeitnow: {enabled: true}
+  # HTML boards: selectors can change; verify each site's terms/robots first.
+  emploi_ma: {enabled: false}
+  rekrute: {enabled: false}
